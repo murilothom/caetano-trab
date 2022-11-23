@@ -18,8 +18,8 @@ export const FooterContainer = styled.div`
     justify-content: center;
     align-items: start;
     gap: 1.5rem;
+    flex-wrap: wrap;
 
-    /* flex-direction: column; */
     h4 {
       font-size: 1rem;
       font-weight: 400;
