@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const HomeContainer = styled.div``;
+export const AreasContainer = styled.div``;
 
 export const Image = styled.div`
   display: flex;
@@ -15,7 +15,13 @@ export const Image = styled.div`
   }
 `;
 
-export const AboutUs = styled.div`
+export const AreasDetails = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
   h1 {
     text-align: center;
     margin-bottom: 1rem;
@@ -26,7 +32,7 @@ export const AboutUs = styled.div`
 
     &::after {
       content: '';
-      width: 200px;
+      width: 325px;
       height: 2px;
       background-color: white;
       display: block;
@@ -37,16 +43,26 @@ export const AboutUs = styled.div`
       font-size: 1.5rem;
     }
   }
+`;
 
-  & > div {
+export const AreasIcons = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+
+  div {
+    background: #fafafa;
+    color: ${(props) => props.theme['gray-600']};
     display: flex;
-    align-items: start;
+    flex-direction: column;
     justify-content: center;
-    gap: 1rem;
-
-    p {
-      width: 50%;
-      letter-spacing: 0.25px;
-    }
+    align-items: center;
+    gap: 0.5rem;
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
   }
 `;

@@ -6,13 +6,27 @@ export function Header() {
   return (
     <S.HeaderContainer>
       <S.HeaderContent>
-        <S.LogoWrapper>Logo</S.LogoWrapper>
+        <S.LogoWrapper>
+          <Link to='/'>
+            Almança
+            <br />
+            Silva
+            <br />
+            Soares &
+            <br />
+            <strong>Advogados associados</strong>
+          </Link>
+        </S.LogoWrapper>
         <S.Navbar>
-          <Link to='/institucional'>Institucional</Link>
-          <Link to='/areas-de-atuacao'>Áreas de atuação</Link>
-          <Link to='/equipe'>Equipe</Link>
-          <Link to='/noticias'>Notícias</Link>
-          <Link to='/contato'>Contato</Link>
+          <li>
+            <Link to='/'>Institucional</Link>
+          </li>
+          <li>
+            <Link to='/areas-de-atuacao'>Áreas de atuação</Link>
+          </li>
+          <li>
+            <Link to='/equipe'>Equipe</Link>
+          </li>
         </S.Navbar>
       </S.HeaderContent>
     </S.HeaderContainer>
