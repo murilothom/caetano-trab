@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-export const HomeContainer = styled.div``;
-
 export const Image = styled.div`
   display: flex;
   justify-content: center;
@@ -15,38 +13,36 @@ export const Image = styled.div`
   }
 `;
 
-export const AboutUs = styled.div`
-  h1 {
-    text-align: center;
-    margin-bottom: 1rem;
-    font-size: 1.75rem;
+export const HomeDetails = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: start;
+
+  & > div {
+    margin-top: 1rem;
+
+    & > span {
+      display: block;
+      margin-top: 1rem;
+      font-size: 1rem;
+      font-family: 'Inter', Arial, Helvetica, sans-serif;
+      font-weight: 700;
+      letter-spacing: 0.25px;
+    }
+  }
+
+  & > div > h1 {
+    text-align: start;
+    margin-bottom: 0.25rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     margin-top: 0.5rem;
 
-    &::after {
-      content: '';
-      width: 200px;
-      height: 2px;
-      background-color: white;
-      display: block;
-      margin: 0 auto;
-    }
-
     @media (max-width: 680px) {
       font-size: 1.5rem;
-    }
-  }
-
-  & > div {
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    gap: 1rem;
-
-    p {
-      width: 50%;
-      letter-spacing: 0.25px;
     }
   }
 `;

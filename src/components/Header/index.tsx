@@ -1,6 +1,6 @@
 import * as S from './styles';
 
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 export function Header() {
   return (
@@ -19,13 +19,16 @@ export function Header() {
         </S.LogoWrapper>
         <S.Navbar>
           <li>
-            <Link to='/'>Institucional</Link>
+            <NavLink to='/'>Início</NavLink>
           </li>
           <li>
-            <Link to='/areas-de-atuacao'>Áreas de atuação</Link>
+            <NavLink to='/institucional'>Institucional</NavLink>
           </li>
           <li>
-            <Link to='/equipe'>Equipe</Link>
+            <NavLink to='/areas-de-atuacao'>Áreas de atuação</NavLink>
+          </li>
+          <li>
+            <NavLink to='/equipe'>Equipe</NavLink>
           </li>
         </S.Navbar>
       </S.HeaderContent>

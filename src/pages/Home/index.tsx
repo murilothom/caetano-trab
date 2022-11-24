@@ -1,44 +1,39 @@
 import * as S from './styles';
 
-import lawImg from '../../assets/law.jpg';
+import digitalLaw from '../../assets/digital-law.jpg';
 
 export function Home() {
   return (
-    <S.HomeContainer>
+    <>
       <S.Image>
-        <img src={lawImg} alt='' />
+        <img src={digitalLaw} alt='' />
       </S.Image>
 
-      <S.AboutUs>
-        <h1>Sobre nós</h1>
+      <S.HomeDetails>
         <div>
+          <h1>Por que se adequar à LGPD?</h1>
           <p>
-            Com o objetivo de auxiliar empresas na regulamentação da Lei Geral
-            de Proteção de Dados em suas atuações, três colegas recém formadas
-            decidem unir-se e abrir sua sociedade. Em 04/05/2020, por
-            coincidência no início de um período que iria acentuar ainda mais a
-            necessidade de proteger os seus dados e dados dos clientes, funda-se
-            Almança, Silva & Soares. Durante os 2 anos, a empresa foi agregada
-            ademais personalidades do meio jurídico para aperfeiçoar seu
-            trabalho. Nós vamos muito além de fronteiras e delimitações. Apesar
-            de nossa sede ser no Recanto Maestro, Restinga Seca/RS, conseguimos
-            atender empresas de todos os lugares do mundo por estarmos
-            difundidos digitalmente.
-          </p>
-          <p>
-            Fazendo com que assim, empresas do Rio Grande do Sul, do Brasil e do
-            Mundo consigam atualizar suas políticas e utilizar os dados dos seus
-            clientes de forma ética e segura para ambos os lados. Nós viemos com
-            o intuito de inovação. Somos um escritório pequeno, mas com um
-            alcance inestimável. Presamos pelo humanismo em nossos atendimentos
-            e tratar cada assessoria como se fosse única, por que é. Assim,
-            pensando em como estamos cada vez mais em um mundo digital, a
-            Almança, Silva, Soares e Advogados Associados veio para completar e
-            fazer com que os negócios jurídicos não dependam de territórios,
-            pois as ligações humanas vão muito além disso.
+            Adequar-se à Lei de Proteção de Dados é, apenas, a ponta do iceberg
+            da Segurança da Informação no seu negócio.
+            <br />
+            Assegure o cumprimento da lei e evite a incidência de multas pela
+            ANPD (Autoridade Nacional de Proteção de Dados) de até R$50 milhões
+            por infração para a sua empresa.
           </p>
         </div>
-      </S.AboutUs>
-    </S.HomeContainer>
+
+        <div>
+          <h1>
+            Por que optar por realizar essa implementação com a nossa empresa?
+          </h1>
+          <p>
+            Nossa equipe está equipada para atender sua empresa e lhe auxiliar a
+            estar preparado para as mudanças repentinas dessa lei que vem
+            ganhando cada vez mais força em nossa sociedade.
+          </p>
+          <span>Agende sua consultoria!</span>
+        </div>
+      </S.HomeDetails>
+    </>
   );
 }

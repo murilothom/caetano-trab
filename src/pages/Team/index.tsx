@@ -17,35 +17,35 @@ interface IPeopleTeam {
 const peopleTeam: IPeopleTeam[] = [
   {
     name: 'Camille Hilgemann Almança',
-    occupation: 'Sócia OAB/RS 45.789',
+    occupation: 'Sócia OAB/RS 00.000',
     summary:
       'Graduada em Direito pela Faculdade Antonio Meneghetti, com especialização na área empresarial e Mestrado em Atualidades da LGPD em Empresas pela Universidade de Coimbra, Portugal. Atua na área de LGPD para empresas e é professora na Faculdade Antonio Meneghetti na cadeira de direito empresarial.',
     photo: camilleImg,
   },
   {
     name: 'Frantiesca Larissa da Silva',
-    occupation: 'Sócia OAB/RS 45.674',
+    occupation: 'Sócia OAB/RS 00.000',
     summary:
       'Graduada em Direito pela Faculdade Antonio Meneghetti, com especialização em direito empresarial e mestrado em Privacidade de Dados na Era Digital pela Universidade Federal de Santa Maria. Atua na área de LGPD para empresas e é autora de obras publicados sobre Privacidade de Dados.',
     photo: frantiescaImg,
   },
   {
     name: 'Maria Rita Soares',
-    occupation: 'Sócia OAB/RS 48.248',
+    occupation: 'Sócia OAB/RS 00.000',
     summary:
       'Graduada em Direito pela Faculdade Antonio Meneghetti, com especialização em direito digital e Mestrado em Direito Civil aplicado na LGPD pela Universidade de Coimbra, Portugal. Atua na área de LGPD para empresas e é julgadora no Tribunal de Ética de Disciplina da OAB/RS.',
     photo: mariaImg,
   },
   {
     name: 'Caetano Malheiros Tiezerin',
-    occupation: 'Associado OAB/RS 47.466',
+    occupation: 'Associado OAB/RS 00.000',
     summary:
       'Graduado em Direito pela Faculdade Antonio Meneghetti, com especialização em LGPD e mestrado em Atualidades da LGPD em Empresas pela Universidade de Coimbra, Portugal. É doutorando em Direito Digital na Universidade Federal de Santa Maria e atua na área de LGPD para empresas.',
     photo: caetanoImg,
   },
   {
     name: 'Laysa Priscila Bulegon',
-    occupation: 'Associada OAB/RS 46.980',
+    occupation: 'Associada OAB/RS 00.000',
     summary:
       'Graduada em Direito pela Faculdade Antonio Meneghetti, com especialização no direito civil e Mestranda em Direito Civil aplicado na LGPD pela Universidade Federal de Pelotas. Atua na área de LGPD para empresas e é professora na Faculdade Antonio Meneghetti na cadeira de direito civil.',
     photo: laysaImg,
