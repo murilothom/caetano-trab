@@ -127,5 +127,6 @@ export const InfoPeople = styled.div<IGrid>`
     font-size: 0.875rem;
     line-height: 1.33;
     color: ${(props) => props.theme['gray-100']};
+    text-align: justify;
   }
 `;
