@@ -82,10 +82,15 @@ export const Navbar = styled.ul`
       display: block;
     }
 
-    &:hover {
+    &.active {
       &::after {
         width: 100%;
       }
+    }
+
+    &:hover::after,
+    &.active::after {
+      width: 100%;
     }
   }
 `;

@@ -19,7 +19,12 @@ export function Header() {
         </S.LogoWrapper>
         <S.Navbar>
           <li>
-            <NavLink to='/'>Início</NavLink>
+            <NavLink
+              className={({ isActive }) => (isActive ? 'active' : '')}
+              to='/'
+            >
+              Início
+            </NavLink>
           </li>
           <li>
             <NavLink to='/institucional'>Institucional</NavLink>
