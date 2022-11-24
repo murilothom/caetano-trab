@@ -45,6 +45,7 @@ export const AboutUs = styled.div`
     p {
       width: 50%;
       letter-spacing: 0.25px;
+      text-align: justify;
     }
   }
 `;

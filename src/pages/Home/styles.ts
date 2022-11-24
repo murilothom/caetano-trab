@@ -18,7 +18,7 @@ export const HomeDetails = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  text-align: start;
+  text-align: justify;
 
   & > div {
     margin-top: 1rem;

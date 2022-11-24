@@ -14,11 +14,10 @@ export function Home() {
           <h1>Por que se adequar à LGPD?</h1>
           <p>
             Adequar-se à Lei de Proteção de Dados é, apenas, a ponta do iceberg
-            da Segurança da Informação no seu negócio.
-            <br />
-            Assegure o cumprimento da lei e evite a incidência de multas pela
-            ANPD (Autoridade Nacional de Proteção de Dados) de até R$50 milhões
-            por infração para a sua empresa.
+            da Segurança da Informação no seu negócio. Assegure o cumprimento da
+            lei e evite a incidência de multas pela ANPD (Autoridade Nacional de
+            Proteção de Dados) de até R$50 milhões por infração para a sua
+            empresa.
           </p>
         </div>
 
